@@ -25,7 +25,7 @@ function saveCoords(coordsObj) {
   localStorage.setItem(COORDS, JSON.stringify(coordsObj));
 }
 
-// localStorage에 좌표값이 없ㅇ르 때에만 실행됨
+// localStorage에 좌표값이 없을 때에만 실행됨
 function handleGeoSucces(position) {
   const latitude = position.coords.latitude;
   const longitude = position.coords.longitude;
