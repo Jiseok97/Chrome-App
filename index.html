@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Something</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>JromeApp</title>
+    <link rel="stylesheet" href="CSS/index.css" />
   </head>
 
   <body>
-    <div class="js-clock">
-      <h1>00:00</h1>
-    </div>
-    <!-- form 의 뒤에 form은 css -->
-    <form class="js-form form">
-      <input type="text" placeholder="What is yours name?" />
-    </form>
-    <!-- h4 의 뒤에 greetings는 css-->
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-toDoList"></ul>
+    <section class="center">
+      <div class="js-clock clock">
+        <h1>00:00</h1>
+      </div>
+      <!-- form 의 뒤에 form은 css -->
+      <form class="js-form form">
+        <input type="text" placeholder="What is yours name?" />
+      </form>
+      <!-- h4 의 뒤에 greetings는 css-->
+      <h4 class="js-greetings greetings"></h4>
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write a To Do here" />
+      </form>
+      <ul class="js-toDoList"></ul>
+    </section>
+
     <span class="js-weather"></span>
     <script src="JS/clock.js"></script>
     <script src="JS/greeting.js"></script>

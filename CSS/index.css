@@ -1,5 +1,7 @@
 body {
   color: "#34495e";
+  background-position: center center;
+  background-size: cover; /* 이미지가 찌그러지지 않는 한도 내에서 제일 크게 설정 */
 }
 
 .clicked {
@@ -35,5 +37,6 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  animation: fadeIn 0.5s linear;
+  /* forwards: 대상은 실행 된 애니메이션의 마지막 keyframe에 의해 설정된 계산 된 값을 유지*/
+  animation: fadeIn 1s ease-in-out forwards;
 }
